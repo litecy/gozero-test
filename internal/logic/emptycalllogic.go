@@ -68,7 +68,7 @@ func (l *EmptyCallLogic) EmptyCall(in *model.Empty) (*model.Empty, error) {
 			return nil, err
 		}
 
-		l.Infof("type is updated to %d for code: %d", tp, code)
+		l.Infof("[update-1]type is updated to %d for code: %d", tp, code)
 	}
 
 	{
