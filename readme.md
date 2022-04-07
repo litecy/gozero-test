@@ -44,5 +44,11 @@ result:
 ```
 
 
+### remark
+
+AtestModel.UpdateTypeByCode is custom function added after code generate
+
+The caller of AtestModel.UpdateTypeByCode only knows the column `code` value 
+
 
 
