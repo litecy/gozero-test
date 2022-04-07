@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+package model;
+
+option go_package="./model";
+
+message Empty {
+}
+service EmptySvc {
+  rpc EmptyCall(Empty) returns (Empty);
+}

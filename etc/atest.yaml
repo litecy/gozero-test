@@ -1,0 +1,9 @@
+Name: atest.rpc
+ListenOn: 127.0.0.1:8080
+
+DB:
+  DataSource: root:123456@(localhost:3306)/mytest?charset=utf8mb4&parseTime=True&loc=Local
+
+Cache:
+  - Host: localhost:6379
+    Pass: ""
